@@ -41,7 +41,7 @@ async function getNews(){
     try{
 
         const response = await fetch(
-            "http://127.0.0.1:8000/news"
+            "https://smartbuddy-ai-1.onrender.com/news"
         );
 
         const data = await response.json();
@@ -161,7 +161,7 @@ async function sendMessage(){
     try{
 
         const response = await fetch(
-            "http://127.0.0.1:8000/chat",
+            "https://smartbuddy-ai-1.onrender.com/chat",
             {
                 method: "POST",
                 body: formData
