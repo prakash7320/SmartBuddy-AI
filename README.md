@@ -76,7 +76,7 @@ uvicorn main:app --reload
 
 ## Live Demo
 
-Frontend: smart-buddy-ai.vercel.app
+Frontend: https://smart-buddy-ai.vercel.app
 
 Backend: https://smartbuddy-ai-1.onrender.com
 
